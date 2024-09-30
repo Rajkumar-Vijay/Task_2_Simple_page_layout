@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Layout</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      ::selection {
+        color: green;
+      }
+
+      header {
+        min-height: 100px;
+        background-color: #617062;
+        color: white;
+        position: sticky;
+        text-align: center;
+        padding: 22px;
+        box-shadow: 0 2px 5px 1px rgba(64, 60, 67, 0.16);
+      }
+      aside {
+        position: fixed;
+        top: 144px;
+        background-color: white;
+        width: 250px;
+        height: 100vh;
+        box-shadow: 0 10px 5px 5px rgba(64, 60, 67, 0.16);
+      }
+
+      .main-content {
+        background-color: #fff;
+        margin-left: 250px;
+        padding: 10px;
+        text-align: center;
+      }
+      footer {
+        margin-left: 250px;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Header</h1>
+    </header>
+    <aside>
+      <h2 style="text-align: center">Guvi</h2>
+    </aside>
+    <div>
+      <main class="main-content">
+        <h2>FSD-WE-T-B7</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </main>
+    </div>
+    <footer>
+      <p>Footer Area</p>
+    </footer>
+  </body>
+</html>
